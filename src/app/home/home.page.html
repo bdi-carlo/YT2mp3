@@ -1,12 +1,19 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar color="primary">
     <ion-title>
       YT2mp3
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content padding>
-  <ion-input value="musique"></ion-input>
-  <button ion-button icon-start>Télécharger</button>
+<ion-content padding color="secondary">
+  <ion-card>
+    <ion-card-header>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-searchbar type="text" placeholder="Titre de musique" [(ngModel)]="inputTitle"></ion-searchbar>
+      <button ion-button icon-start expand="block" size="large" (click)="onDownload()">Télécharger</button>
+    </ion-card-content>
+  </ion-card>
 </ion-content>
