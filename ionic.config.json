@@ -1,5 +1,7 @@
 {
   "name": "YT2mp3",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

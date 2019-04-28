@@ -13,7 +13,11 @@
 
     <ion-card-content>
       <ion-searchbar type="text" placeholder="Titre de musique" [(ngModel)]="inputTitle"></ion-searchbar>
-      <button ion-button icon-start expand="block" size="large" (click)="onDownload()">Télécharger</button>
+      <button ion-button icon-start expand="block" size="large" (click)="onDownload()">Chercher</button>
     </ion-card-content>
   </ion-card>
+
+  <div class="buttonDownload">
+    <iframe *ngIf="ready" style="width:230px;height:60px;border:0;overflow:hidden;" scrolling="no" [src]="currentUrl"></iframe>
+  </div>
 </ion-content>

@@ -30,9 +30,15 @@ button:hover{
   color: white;
 }
 
+.buttonDownload{
+  background-color: #ffc7c1;
+  text-align: center;
+}
+
 ion-card{
   margin-top: 150px;
   background-color: #fcf1ef;
+  box-shadow: none;
 }
 
 ion-card-content{
