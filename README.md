@@ -3,4 +3,4 @@
 <p>It works with 2 REST API:</p>
 
 * Youtube DATA v3
-* Youtube6Download
+* Youtube6Download (This api doesn't work on mobile application, searching for another API ...)
